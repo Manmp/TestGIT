@@ -1,4 +1,5 @@
-﻿using TechTalk.SpecFlow;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using TechTalk.SpecFlow;
 
 namespace SpecFlowProjectDemo.Steps
 {
@@ -50,7 +51,7 @@ namespace SpecFlowProjectDemo.Steps
         public void ThenTheResultShouldBe(int result)
         {
             //TODO: implement assert (verification) logic
-            
+            Assert.IsTrue(true, "");
         }
     }
 }
